@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    /* background-color:; */
+    color:rgb(177, 172, 172);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    margin-left: -40px;
+}
+
+.logo {
+    height: 40px;
+    width: 90px;
+    margin-left: -40px;
+
+}
+
+.search {
+    height: 50px;
+    width: 680px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(225, 238, 238);
+    border-radius: 25px;
+    margin-left: 65px;
+    margin-right: 50px;
+    border: transparent;
+}
+.search-logo{
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+.search-input {
+    width: 98%;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+.active1{
+    height: 50px;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color:rgb(225, 238, 238);
+    color: rgb(33, 33, 33);
+    margin-left: 5px;
+    margin-right: -15px;
+}
+
+.active1 p {
+    margin-left: 8px;
+}
+.questionMark {
+    margin-left:-20px;
+    color: rgb(71, 69, 69);
+    margin-right: -25px;
+    margin-left: 15px;
+
+}
+
+.settings{
+    color: rgb(71, 69, 69);
+    margin-right: -25px;
+
+}
+.grid{
+    color: rgb(71, 69, 69);
+    margin-right: -25px;
+
+}
+
+.signin{
+    color: rgb(71, 69, 69);
+    margin-right: -20px;
+}
+
+/* left colomn*/
+.main{
+    display: flex;
+    align-items:wrap ;
+}
+
+.component1 {
+    height: 500px;
+    width: 250px;
+    background-color:aliceblue;
+}
+.newchat p{
+    margin-left: 8px;
+}
+
+.newchat{
+    height: 60px;
+    width: 120px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.content {
+    margin-top: 25px;
+}
+
+.component2 {
+    height: 750px;
+    width: 1100px;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 25px;
+}
+
+.home{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+#unread {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 98px;
+    color: rgb(87, 87, 240);
+    border: 2px solid rgb(96, 87, 87);
+    border-radius: 12px;
+    margin-left: 970px;
+    margin-top: -15px;
+}
+
+.paragraph{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-right: 366px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.paragraph2{
+
+    margin-right: 366px;
+    margin-left: 400px;
+}
+
+.box-images{
+    display: flex;
+    align-items: wrap;
+    margin-left: 100px;
+}
+
+.box button{   
+    height: 50px;
+    width: 135px;
+    background-color: rgb(177, 231, 242);
+    border-radius: 25px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.box p {
+    margin-left: 50px;
+}
+.paragraph3{
+    margin-top: 60px;
+    margin-right: 366px;
+    margin-left: 445px;
+}
+.apps {
+    display: flex;
+    justify-content: wrap;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 366px;
+    margin-left: 400px;
+}
+
+#playstore {
+    display: flex;
+    justify-content: wrap;
+
+}
+
+#appstore{
+    display: flex;
+    justify-content: wrap;
+}
+
+#webapp{
+    display: flex;
+    justify-content: wrap;
+}
+
+.apps i {
+    color: rgb(205, 198, 198);
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.apps p {
+    color: rgb(81, 93, 226);
+}
+
+.app-section {
+    height: 1000px;
+    width: 35px;
+}
+.app-section img {
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
